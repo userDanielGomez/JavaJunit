@@ -1,5 +1,7 @@
 package es.curso.junit.aserciones;
 
+import java.util.Arrays;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -19,7 +21,11 @@ public class Main {
 //        boolean respuesta = persona1 == persona2;
 //        System.out.println(respuesta);
 
+//        Utilidades utilidades = new Utilidades();
+//        String[] array = utilidades.getArrayStrings("Uno","Dos");
+//        System.out.println(Arrays.toString(array));
 
+//        System.out.println(utilidades.getArrayStrings("HOla","Mundo"));
 
 
     }

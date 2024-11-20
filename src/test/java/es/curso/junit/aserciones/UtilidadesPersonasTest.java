@@ -21,8 +21,8 @@ public class UtilidadesPersonasTest {
         //when
         Persona carlos = utils.getCarlos();
         //then
-        Assert.assertEquals("Carlos",carlos.getNombre());
-        Assert.assertEquals("Romero",carlos.getApellido());
+        assertEquals("Carlos",carlos.getNombre());
+        assertEquals("Romero",carlos.getApellido());
     }
 
     @Test
@@ -31,10 +31,19 @@ public class UtilidadesPersonasTest {
         //when
         Persona juan = utils.getJuan();
         //then
-        Assert.assertEquals("Juan",juan.getNombre());
-        Assert.assertEquals("Lopez",juan.getApellido());
+        assertEquals("Juan",juan.getNombre());
+        assertEquals("Lopez",juan.getApellido());
 
     }
 
+    @Test
+    public void testPersonasDiferentes(){
+        //when
+        Persona carlos = utils.getCarlos();
+        Persona juan   = utils.getJuan();
+        //then
+        assertNotEquals(carlos,juan);
+
+    }
 
 }

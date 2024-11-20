@@ -47,5 +47,4 @@ public class Persona {
         return Objects.hash(nombre, apellido);
     }
 
-
 }
